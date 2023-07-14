@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33808.371
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_task1(containers_n_layouts)", "WPF_task1(containers_n_layouts)\WPF_task1(containers_n_layouts).csproj", "{3F584AFF-FE54-4EF9-92DF-0D5BBA3B15F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F584AFF-FE54-4EF9-92DF-0D5BBA3B15F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F584AFF-FE54-4EF9-92DF-0D5BBA3B15F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F584AFF-FE54-4EF9-92DF-0D5BBA3B15F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F584AFF-FE54-4EF9-92DF-0D5BBA3B15F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {539CFC8E-74B4-4FA2-8605-3B3666DDF3CC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,38 @@
+﻿<Window x:Class="WPF_task1_containers_n_layouts_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_task1_containers_n_layouts_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="500">
+    <Grid>                
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition/>              
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <TextBlock Grid.ColumnSpan="2">
+            <WrapPanel >
+                <Button Margin="2" Foreground="Navy" MinWidth="100">Navy</Button>
+                <Button Margin="2" Foreground="Blue" MinWidth="100">Blue</Button>
+                <Button Margin="2" Foreground="Aqua" MinWidth="100">Aqua</Button>
+                <Button Margin="2" Foreground="Teal" MinWidth="100">Teal</Button>
+                <Button Margin="2" Foreground="Olive" MinWidth="100">Olive</Button>
+                <Button Margin="2" Foreground="Green" MinWidth="100">Green</Button>
+                <Button Margin="2" Foreground="Lime" MinWidth="100">Lime</Button>
+                <Button Margin="2" Foreground="Yellow" MinWidth="100">Yellow</Button>
+                <Button Margin="2" Foreground="Orange" MinWidth="100">Orange</Button>
+                <Button Margin="2" Foreground="Red" MinWidth="100">Red</Button>
+                <Button Margin="2" Foreground="Maroon" MinWidth="100">Maroon</Button>
+                <Button Margin="2" Foreground="Fuchsia" MinWidth="100">Fuchsia</Button>
+                <Button Margin="2" Foreground="Purple" MinWidth="100">Purple</Button>
+                <Button Margin="2" Foreground="Black" MinWidth="100">Black</Button>
+                <Button Margin="2" Foreground="Silver" MinWidth="100">Silver</Button>
+                <Button Margin="2" Foreground="Gray" MinWidth="100">Gray</Button>
+                <Button Margin="2" Foreground="White" MinWidth="100">White</Button>
+            </WrapPanel>
+        </TextBlock>
+    </Grid>
+</Window>
